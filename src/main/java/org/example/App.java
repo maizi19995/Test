@@ -11,6 +11,7 @@ public class App
         try{
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("驱动初始化成功");
+            System.out.println("这是一次更新");
         }
         catch(Exception e){
             e.printStackTrace();
